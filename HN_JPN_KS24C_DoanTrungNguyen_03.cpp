@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-int size,chonjine,addindex;
+int size,chonfine,addindex;
 int arr[50];
 do{
 		printf("              ---MENU---     \n");
@@ -21,7 +21,7 @@ do{
 	printf("\nLua chon cua ban : ");
 	scanf("%d",&chonjine);
 	
-	switch(chonjine){
+	switch(chonfine){
 		case 1:
 			printf("Ban muon nhap mang chua bao nhieu phan tu : ");
 			scanf("%d",&size);
