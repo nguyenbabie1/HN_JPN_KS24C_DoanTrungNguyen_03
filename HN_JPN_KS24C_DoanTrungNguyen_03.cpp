@@ -19,7 +19,7 @@ do{
 	
 	
 	printf("\nLua chon cua ban : ");
-	scanf("%d",&chonjine);
+	scanf("%d",&chonfine);
 	
 	switch(chonfine){
 		case 1:
@@ -122,6 +122,6 @@ do{
 			printf("Thoat");
 			break;	
 	}
-}while(chonjine!=11);
+}while(chonfine!=11);
 return 0;
 }
